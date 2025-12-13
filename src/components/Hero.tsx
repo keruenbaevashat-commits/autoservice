@@ -1,6 +1,7 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Phone, Truck } from 'lucide-react';
 import { Button } from './ui/button';
+import heroBackground from '@/assets/hero-mercedes.jpg';
 
 const Hero = () => {
   const { t } = useLanguage();
@@ -12,8 +13,13 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-secondary/20" />
+      {/* Background image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBackground})` }}
+      />
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-background/70" />
       
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
