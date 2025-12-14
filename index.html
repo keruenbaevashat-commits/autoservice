@@ -7,12 +7,14 @@
     <!-- Primary Meta Tags -->
     <title>Автосервис 888 в Актобе | Бесплатный эвакуатор и ремонт авто</title>
     <meta name="description" content="Автосервис 888 в Актобе — заберём ваш автомобиль на эвакуаторе бесплатно. Все виды ремонта: диагностика, ходовая, двигатель, тормоза. Звоните: +7 700 123 45 67" />
-    <meta name="keywords" content="автосервис Актобе, ремонт авто Актобе, эвакуатор Актобе, СТО 888, диагностика авто, ремонт двигателя, ходовая часть, тормозная система, автоэлектрика" />
+    <meta name="keywords" content="автосервис Актобе, ремонт авто Актобе, эвакуатор Актобе, СТО 888, диагностика авто, ремонт двигателя, ходовая часть, тормозная система, автоэлектрика, бесплатный эвакуатор" />
     <meta name="author" content="Автосервис 888" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta name="language" content="Russian" />
     <meta name="geo.region" content="KZ-AKT" />
     <meta name="geo.placename" content="Актобе" />
+    <meta name="geo.position" content="50.28;57.16" />
+    <meta name="ICBM" content="50.28, 57.16" />
     <link rel="canonical" href="https://sto888.kz/" />
 
     <!-- Open Graph / Facebook -->
@@ -32,41 +34,143 @@
     <meta name="twitter:description" content="Заберём ваш автомобиль на эвакуаторе бесплатно. Все виды ремонта авто в Актобе." />
     <meta name="twitter:image" content="https://sto888.kz/og-image.jpg" />
 
-    <!-- Structured Data -->
+    <!-- Structured Data - LocalBusiness -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "AutoRepair",
+      "@id": "https://sto888.kz/#organization",
       "name": "Автосервис 888",
-      "description": "Автосервис в Актобе с бесплатным эвакуатором. Все виды ремонта автомобилей.",
+      "alternateName": "СТО 888",
+      "description": "Автосервис 888 в Актобе — первый автосервис, который самостоятельно забирает автомобиль клиента на эвакуаторе. Полный спектр услуг по ремонту и обслуживанию автомобилей: диагностика, ремонт двигателя, ходовой части, тормозной системы, автоэлектрика. Работаем с автомобилями всех марок.",
       "url": "https://sto888.kz",
       "telephone": "+77001234567",
+      "email": "info@sto888.kz",
+      "image": "https://sto888.kz/og-image.jpg",
+      "logo": "https://sto888.kz/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Актобе",
+        "addressRegion": "Актюбинская область",
+        "addressCountry": "KZ"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "50.28",
+        "longitude": "57.16"
+      },
       "areaServed": {
         "@type": "City",
         "name": "Актобе",
         "addressCountry": "KZ"
       },
       "priceRange": "$$",
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        "opens": "09:00",
-        "closes": "18:00"
-      },
+      "currenciesAccepted": "KZT",
+      "paymentAccepted": "Наличные, Карта, Kaspi",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Услуги автосервиса",
+        "name": "Услуги автосервиса 888",
         "itemListElement": [
-          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Диагностика авто"}},
-          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ремонт двигателя"}},
-          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ремонт ходовой части"}},
-          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Тормозная система"}},
-          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Автоэлектрика"}},
-          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Бесплатный эвакуатор"}}
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Бесплатный эвакуатор",
+              "description": "Бесплатный забор автомобиля на эвакуаторе по городу Актобе"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Компьютерная диагностика",
+              "description": "Полная компьютерная диагностика всех систем автомобиля"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ремонт двигателя",
+              "description": "Капитальный и текущий ремонт бензиновых и дизельных двигателей"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ремонт ходовой части",
+              "description": "Диагностика и ремонт подвески, замена амортизаторов, рычагов, сайлентблоков"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Тормозная система",
+              "description": "Замена тормозных колодок, дисков, ремонт суппортов"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Автоэлектрика",
+              "description": "Диагностика и ремонт электрооборудования автомобиля"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Замена масла и фильтров",
+              "description": "Замена моторного масла и всех фильтров любых марок"
+            }
+          }
         ]
+      },
+      "sameAs": [
+        "https://wa.me/77001234567"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "87"
       }
     }
     </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://sto888.kz/"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://www.google.com" />
+    <link rel="dns-prefetch" href="https://maps.googleapis.com" />
   </head>
 
   <body>
