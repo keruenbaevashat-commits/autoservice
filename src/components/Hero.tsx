@@ -14,21 +14,21 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
       {/* Background image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBackground})` }}
       />
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-background/70" />
-      
+
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 -left-20 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse-glow" />
         <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       </div>
-      
+
       {/* Grid pattern overlay */}
-      <div 
+      <div
         className="absolute inset-0 opacity-5"
         style={{
           backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
 
           {/* Main title */}
-          <h1 
+          <h1
             className="animate-fade-up font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight"
             style={{ animationDelay: '0.1s' }}
           >
@@ -56,7 +56,7 @@ const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p 
+          <p
             className="animate-fade-up text-lg sm:text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto"
             style={{ animationDelay: '0.2s' }}
           >
@@ -64,7 +64,7 @@ const Hero = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div 
+          <div
             className="animate-fade-up flex flex-col sm:flex-row gap-4 justify-center"
             style={{ animationDelay: '0.3s' }}
           >
@@ -76,14 +76,14 @@ const Hero = () => {
               <Truck className="w-5 h-5 mr-2 group-hover:animate-bounce" />
               {t('hero.cta.tow')}
             </Button>
-            
+
             <Button
               asChild
               size="lg"
               variant="outline"
               className="border-2 border-foreground/20 hover:border-primary hover:bg-primary/10 text-foreground font-display font-bold text-lg px-8 py-6 rounded-xl transition-all duration-300"
             >
-              <a href="tel:+77001234567">
+              <a href="tel:+77022223202">
                 <Phone className="w-5 h-5 mr-2" />
                 {t('hero.cta.call')}
               </a>

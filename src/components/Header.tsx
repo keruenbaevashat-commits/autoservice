@@ -23,7 +23,7 @@ const Header = () => {
           <span className="font-display text-2xl font-black text-primary">888</span>
           <span className="hidden sm:block text-sm text-muted-foreground">AutoService</span>
         </Link>
-        
+
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
@@ -39,13 +39,13 @@ const Header = () => {
 
         <div className="flex items-center gap-4">
           <LanguageSwitcher />
-          
+
           <a
-            href="tel:+77001234567"
+            href="tel:+77022223202"
             className="hidden sm:flex items-center gap-2 text-foreground hover:text-primary transition-colors"
           >
             <Phone className="w-5 h-5" />
-            <span className="hidden lg:block font-medium">+7 700 123 45 67</span>
+            <span className="hidden lg:block font-medium">+7 702 222 32 02</span>
           </a>
 
           {/* Mobile menu button */}
@@ -74,11 +74,11 @@ const Header = () => {
               </Link>
             ))}
             <a
-              href="tel:+77001234567"
+              href="tel:+77022223202"
               className="flex items-center gap-2 text-foreground hover:text-primary transition-colors py-2"
             >
               <Phone className="w-5 h-5" />
-              <span className="font-medium">+7 700 123 45 67</span>
+              <span className="font-medium">+7 702 222 32 02</span>
             </a>
           </div>
         </nav>

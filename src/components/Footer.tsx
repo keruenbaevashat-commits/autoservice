@@ -21,15 +21,15 @@ const Footer = () => {
           {/* Contact info */}
           <div className="flex flex-col sm:flex-row items-center gap-6">
             <a
-              href="tel:+77001234567"
+              href="tel:+77022223202"
               className="flex items-center gap-2 text-foreground hover:text-primary transition-colors"
             >
               <Phone className="w-5 h-5" />
-              <span className="font-medium">+7 700 123 45 67</span>
+              <span className="font-medium">+7 702 222 32 02</span>
             </a>
-            
+
             <a
-              href="https://wa.me/77001234567"
+              href="https://wa.me/77022223202"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-foreground hover:text-green-500 transition-colors"

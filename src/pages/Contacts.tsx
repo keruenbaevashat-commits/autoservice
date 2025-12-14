@@ -27,7 +27,7 @@ const Contacts = () => {
             {/* Contact Information */}
             <section>
               <h2 className="font-display text-2xl font-bold mb-8">{t('contacts.info.title')}</h2>
-              
+
               <div className="space-y-6">
                 {/* Phone */}
                 <div className="flex items-start gap-4 p-6 bg-card rounded-2xl border border-border">
@@ -36,8 +36,8 @@ const Contacts = () => {
                   </div>
                   <div>
                     <h3 className="font-display text-lg font-bold mb-2">{t('contacts.phone.title')}</h3>
-                    <a href="tel:+77001234567" className="text-xl font-medium text-primary hover:underline">
-                      +7 700 123 45 67
+                    <a href="tel:+77022223202" className="text-xl font-medium text-primary hover:underline">
+                      +7 702 222 32 02
                     </a>
                     <p className="text-muted-foreground text-sm mt-1">{t('contacts.phone.desc')}</p>
                   </div>
@@ -50,13 +50,13 @@ const Contacts = () => {
                   </div>
                   <div>
                     <h3 className="font-display text-lg font-bold mb-2">WhatsApp</h3>
-                    <a 
-                      href="https://wa.me/77001234567" 
-                      target="_blank" 
+                    <a
+                      href="https://wa.me/77022223202"
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-xl font-medium text-green-500 hover:underline"
                     >
-                      +7 700 123 45 67
+                      +7 702 222 32 02
                     </a>
                     <p className="text-muted-foreground text-sm mt-1">{t('contacts.whatsapp.desc')}</p>
                   </div>
@@ -90,13 +90,13 @@ const Contacts = () => {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 mt-8">
                 <Button size="lg" className="flex-1" asChild>
-                  <a href="tel:+77001234567">
+                  <a href="tel:+77022223202">
                     <Phone className="w-5 h-5 mr-2" />
                     {t('contacts.cta.call')}
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="flex-1 border-green-500 text-green-500 hover:bg-green-500/10" asChild>
-                  <a href="https://wa.me/77001234567" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/77022223202" target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="w-5 h-5 mr-2" />
                     WhatsApp
                   </a>
